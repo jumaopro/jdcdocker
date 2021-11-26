@@ -31,7 +31,7 @@ git clone https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
 
 2 拉取基础镜像以后不需要拉取镜像了 如果需要拉取我会通知
 ```
-sudo docker pull nolanhzy/nvjdc:latest
+sudo docker pull dui520/nvjdc:latest
 ```
 
 3 执行命令
@@ -91,7 +91,7 @@ cd  /root/nolanjdc
 ```
 sudo docker run   --name nolanjdc -p 5702:80 -d  -v  "$(pwd)":/app \
 -v /etc/localtime:/etc/localtime:ro \
--it --privileged=true  nolanhzy/nvjdc:latest
+-it --privileged=true  dui520/nvjdc:latest
 ```
 
 11查看 日志 
