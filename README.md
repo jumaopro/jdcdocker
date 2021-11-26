@@ -1,10 +1,10 @@
 # nvjdc
 
 
-## 注意 注意注意
-    HUBdcoker里面有一个 nolanjdc/nvjdc 镜像不要拉 我看还有500多人拉了 起名都有所图 别的我不多说了把
+## 本文备份自nolan大佬
 
-    我自己的docker  nolanhzy/nvjdc 认清楚
+## 不喜欢勿用
+
 ## 提示
 
 由于我自己的环境是centos x86，arm不支持
@@ -21,11 +21,11 @@
 1拉源码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
 ```
 
 
@@ -53,11 +53,11 @@ mkdir -p  Config && cd Config
 
 
 ```
-wget -O Config.json  https://raw.githubusercontent.com/NolanHzy/nvjdc/main/Config.json
+wget -O Config.json  https://raw.githubusercontent.com/ChangDui/jdcdocker/Config.json
 ```
 国内请使用
  ```
-wget -O Config.json   https://ghproxy.com/https://raw.githubusercontent.com/NolanHzy/nvjdc/main/Config.json
+wget -O Config.json   https://ghproxy.com/https://raw.githubusercontent.com/ChangDui/jdcdocker/Config.json
 ```
 
 6 回到nolanjdc目录创建chromium文件夹并进入
@@ -89,7 +89,7 @@ cd  /root/nolanjdc
 10启动镜像
 
 ```
-sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)":/app \
+sudo docker run   --name nolanjdc -p 5702:80 -d  -v  "$(pwd)":/app \
 -v /etc/localtime:/etc/localtime:ro \
 -it --privileged=true  nolanhzy/nvjdc:latest
 ```
@@ -119,11 +119,11 @@ mv /root/nolanjdc /root/nolanjdcdb
 然后执行步骤一 拉取代码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/NolanHzy/nvjdcdocker.git /root/nolanjdc
+git clone https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
 ```
 
 
