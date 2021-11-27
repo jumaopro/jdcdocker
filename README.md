@@ -21,11 +21,11 @@
 1拉源码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/jumaopro/jdcdocker.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
+git clone https://github.com/jumaopro/jdcdocker.git /root/nolanjdc
 ```
 
 
@@ -53,11 +53,11 @@ mkdir -p  Config && cd Config
 
 
 ```
-wget -O Config.json  https://raw.githubusercontent.com/ChangDui/jdcdocker/Config.json
+wget -O Config.json  https://raw.githubusercontent.com/jumaopro/jdcdocker/Config.json
 ```
 国内请使用
  ```
-wget -O Config.json   https://ghproxy.com/https://raw.githubusercontent.com/ChangDui/jdcdocker/Config.json
+wget -O Config.json   https://ghproxy.com/https://raw.githubusercontent.com/jumaopro/jdcdocker/Config.json
 ```
 
 6 回到nolanjdc目录创建chromium文件夹并进入
@@ -119,11 +119,11 @@ mv /root/nolanjdc /root/nolanjdcdb
 然后执行步骤一 拉取代码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/jumaopro/jdcdocker.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/ChangDui/jdcdocker.git /root/nolanjdc
+git clone https://github.com/jumaopro/jdcdocker.git /root/nolanjdc
 ```
 
 
