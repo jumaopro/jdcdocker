@@ -53,11 +53,11 @@ mkdir -p  Config && cd Config
 
 
 ```
-wget -O Config.json  https://raw.githubusercontent.com/jumaopro/jdcdocker/Config.json
+wget -O Config.json  https://raw.githubusercontent.com/jumaopro/jdcdocker/main/Config.json
 ```
 国内请使用
  ```
-wget -O Config.json   https://ghproxy.com/https://raw.githubusercontent.com/jumaopro/jdcdocker/Config.json
+wget -O Config.json   https://ghproxy.com/https://raw.githubusercontent.com/jumaopro/jdcdocker/main/Config.json
 ```
 
 6 回到nolanjdc目录创建chromium文件夹并进入
